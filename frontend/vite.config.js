@@ -14,10 +14,9 @@ export default ({ mode }) => {
   const config = {
     plugins: [react()],
     resolve: {
-      base: '/',
-      alias: {
-        '@': path.resolve(__dirname, 'src'),
-      },
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+    },
     },
     server: {
       port: 3000,
